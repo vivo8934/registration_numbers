@@ -1,0 +1,23 @@
+.Regis{
+  background-color: #519cff;
+width: 650px;
+padding: 30px;
+margin: auto;
+height: 350px;
+
+}
+
+#number{
+  width: 100px;
+  height: 30px;
+  border: 10px solid black;
+  border-radius: 10%;
+  padding: 15px;
+  margin: auto;
+  background-color: #D3D3D3;
+  margin-top: 150px
+
+}
+h1{
+  text-align: center;
+}
