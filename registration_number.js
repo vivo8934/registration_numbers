@@ -5,7 +5,7 @@ var Cbtn = document.querySelector('.Button')
 
 
 button.addEventListener('click', () => {
-  if(textArea.value > 0){
+  if(textArea.value.length > 0){
   var node = document.createElement('li');
   var t = document.createTextNode(textArea.value.substr(0, 2).toUpperCase() + ' ' + textArea.value.substr(2).toLowerCase());
   node.appendChild(t);
