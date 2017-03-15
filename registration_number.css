@@ -1,23 +1,61 @@
-.Regis{
-  background-color: #519cff;
-width: 650px;
-padding: 30px;
-margin: auto;
-height: 350px;
+.Main
+{
+    width: 850px;
+    height: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: #748bb2;
+}
+h1
+{
+    font-size: 42px;
+    font-style: italic;
 
+    text-align: center;;
+}
+#Mpart
+{
+    font-size: 30px;
+    width: 650px;
+    height: 100px;
+    margin-top: 25px;
+    padding: 15px;
 }
 
-#number{
-  width: 100px;
-  height: 30px;
-  border: 10px solid black;
-  border-radius: 10%;
-  padding: 15px;
-  margin: auto;
-  background-color: #D3D3D3;
-  margin-top: 150px
+.myButton
+{
+    width: 80px;
+    height: 30px;
+    margin-left: 44%;
 
+    border-radius: 10px;
 }
-h1{
-  text-align: center;
+.Button
+{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.myText
+{
+    width: 190px;
+    height: 30px;
+
+    border-radius: 5px;
+}
+li
+{
+    font-family: arial;
+    font-size: 22px;
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 10%;
+    background-color: #d3d3d3;
+}
+ul
+{
+    list-style: none;
 }
