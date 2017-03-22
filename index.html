@@ -1,25 +1,42 @@
+
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Registration_Numbers</title>
-      <link rel="stylesheet" href="registration_number.css">
-  </head>
-  <body>
-    <div class="Main">
-      <div id="Header">
-        <h1>RegistrationNumbers</h1>
-      </div>
-      <div id="Mpart">
-        Registration_Numbers: <input type="text" class="myText"><br>
-    <input type="button"  id= "vivo" class="myButton" value="Add">
-    <input type="button" class="Button" value="clear">
 
-      </div>
-      <ul id = myList>
-      </ul>
+<head>
+  <meta charset="utf-8">
+  <title>Registration_Numbers</title>
+  <link rel="stylesheet" href="registration_number.css">
+</head>
+
+<body>
+  <div class="Main">
+    <div id="Header">
+      <h1>RegistrationNumbers</h1>
     </div>
-    <script src="registration_number.js">
-</script>
-  </body>
+    <div id="Mpart">
+      Registration_Numbers: <input type="text" class="myText"><br>
+      <input type="button" id="vivo" class="myButton" value="Add">
+
+    </div>
+
+    <div class="dropdown">
+
+    <select id='MyChoice'>
+      <option>Select Town </option>
+      <option value="default">All</option>
+      <option value="CY">Bellvile</option>
+      <option value="CA">Cape town</option>
+      <option value="CK">Malmesbury</option>
+      <option value="CJ">Paarl</option>
+    </select>
+
+    </div>
+    <ul id="myList">
+    </ul>
+  </div>
+  <script src="registration_number.js">
+  </script>
+</body>
+
 </html>

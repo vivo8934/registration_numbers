@@ -27,20 +27,14 @@ h1
     width: 80px;
     height: 30px;
     margin-left: 44%;
+   margin-top: 20px;
+    border-radius: 10px;
+}
 
-    border-radius: 10px;
-}
-.Button
-{
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-}
 .myText
 {
     width: 190px;
     height: 30px;
-
     border-radius: 5px;
 }
 li
@@ -58,4 +52,22 @@ li
 ul
 {
     list-style: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+#MyChoice{
+  background-color: #4CAF50;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+#MyChoice-content  {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
