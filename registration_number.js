@@ -34,23 +34,3 @@ else {
 }
 }
 });
-
-
-
-
-
-
-
-
-
-
-
-    //} else if (ul.children[i].innerHTML.startsWith('CY')) {
-    //  ul.children[i].style.display = "block";
-    //} else if (ul.children[i].innerHTML.startsWith('CJ')) {
-      //ul.children[i].style.display = "block";
-    //} else if (ul.children[i].innerHTML.startsWith('CK')) {
-      //ul.children[i].style.display = "block";
-    //} else {
-      //ul.children[i].style.display = "block";
-    //}
